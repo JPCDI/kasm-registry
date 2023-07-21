@@ -2,10 +2,10 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: 'JPCDI Repo',
+    description: 'The official JPCDI Repo for Kasm .',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
+    listUrl: 'https://jpcdi.github.io/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
