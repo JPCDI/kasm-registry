@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'JPCDI Repo',
     description: 'The official JPCDI Repo for Kasm .',
     icon: '/img/logo.svg',
-    listUrl: 'https://jpcdi.github.io/',
+    listUrl: 'https://jpcdi.github.io/JPCDI/',
     contactUrl: 'https://github.com/JPCDI/kasm-registry/issues',
   },
   reactStrictMode: true,
