@@ -1,7 +1,7 @@
 {
   "description": "This Ubuntu Desktop specifically includes the Tor Browser, VLC and other miscellaneous tools",
   "docker_registry": "https://ghcr.io",
-  "image_src": ".png",
+  "image_src": "ubuntu-icon-logo-vector.png",
   "name": "jpartain89/kasm-ubuntu-desktop-vlc-tor:main",
   "run_config": {
     "hostname": "kasm"

@@ -12,24 +12,25 @@
 
 ## Contents
 
-1. [Create your own repository](#1-create-your-own-repository)
-   - [Use this template](#use-this-template)
-   - [Configure repository](#configure-repository)
-1. [Check workflows are running](#2-check-workflows-are-running)
-1. [Edit the config variables](#3-edit-the-config-variables)
-   - [Modify next.config.js](#modify-nextconfigjs)
-   - [Settings definitions](#settings-definitions)
-   - [Commit changes](#commit-changes)
-1. [Set up GitHub pages](#4-set-up-github-pages)
-   - [Initial setup](#initial-setup)
-   - [Visit the site](#visit-the-site)
-   - [Check build progress](#check-build-progress)
-   - [Checking it works](#checking-it-works)
-1. [Creating Workspaces](#5-creating-workspaces)
-   - [Folder structure](#folder-structure)
-   - [Schema](#schema)
-   - [New schema version](#new-schema-version)
-1. [Discovery](#6-dicovery)
+- [Contents](#contents)
+- [1. Create your own repository](#1-create-your-own-repository)
+  - [Use this template](#use-this-template)
+  - [Configure repository](#configure-repository)
+- [2. Check workflows are running](#2-check-workflows-are-running)
+- [3. Edit the config variables](#3-edit-the-config-variables)
+  - [Modify next.config.js](#modify-nextconfigjs)
+  - [Settings definitions](#settings-definitions)
+  - [Commit changes](#commit-changes)
+- [4. Set up GitHub pages](#4-set-up-github-pages)
+  - [Initial setup](#initial-setup)
+  - [Visit the site](#visit-the-site)
+  - [Check build progress](#check-build-progress)
+  - [Checking it works](#checking-it-works)
+- [5. Creating workspaces](#5-creating-workspaces)
+  - [Folder structure](#folder-structure)
+  - [Schema](#schema)
+  - [New schema version](#new-schema-version)
+- [6. Discovery](#6-discovery)
 
 
 &nbsp;
@@ -41,7 +42,7 @@
 <img width="800" src="https://user-images.githubusercontent.com/5698566/230080486-08d4c678-a0bd-4f30-863b-5f7f0bb9182f.png" />
 
 1. Click on the green **Use this template** button.
-2. Select **Create a new repository** from the dropdown. 
+2. Select **Create a new repository** from the dropdown.
 
 
 ### Configure repository
