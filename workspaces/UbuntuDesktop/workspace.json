@@ -4,9 +4,25 @@
   "image_src": "UbuntuDesktop.png",
   "name": "ghcr.io/jpartain89/kasm-ubuntu-desktop-vlc-tor:main",
   "run_config": {
-    "hostname": "kasm"
+    "restart_policy": {
+      "Name": "on-failure",
+      "MaximumRetryCount": 5
+    }
+  },
+  "volume_mappings":{
+    "/mnt/CentralShare": {
+      "bind": "/CentralShare",
+      "mode": "rw",
+      "uid": 1000,
+      "gid": 1000,
+      "required": true,
+      "skip_check": false
+    },
   },
   "exec_config": {
+    "first_launch": {
+      "cmd": "bash -c '/usr/bin/desktop_ready && sudo xfce4-terminal -T wg-quick up wg0'"
+    },
     "go": {
       "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
     },
@@ -26,4 +42,3 @@
   ],
   "uncompressed_size_mb": 2170
 }
- 
