@@ -20,9 +20,6 @@
     }
   },
   "exec_config": {
-    "first_launch": {
-      "cmd": "bash -c '/usr/bin/desktop_ready && sudo xfce4-terminal -T wg-quick up wg0'"
-    },
     "go": {
       "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
     },
