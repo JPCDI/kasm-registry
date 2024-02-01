@@ -6,7 +6,12 @@
   "run_config": {
     "restart_policy": {
       "Name": "on-failure",
-      "MaximumRetryCount": 5
+      "MaximumRetryCount": 5,
+      "devices": [
+        "dev/nut/tun",
+        "/dev/net/tun"
+      ],
+      "privileged": true
     }
   },
   "volume_mappings":{
