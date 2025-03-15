@@ -1,3 +1,7 @@
 1.0
 1.1
+dependabot_npm_and_yarn_site_babel_traverse-7.26.10
+dependabot_npm_and_yarn_site_npm_and_yarn-2c631a4876
+dependabot_npm_and_yarn_site_npm_and_yarn-5134b82be1
+dependabot_npm_and_yarn_site_npm_and_yarn-c06b098d50
 feature_dependency_update
