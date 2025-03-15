@@ -1,6 +1,7 @@
 {
   "description": "Ubuntu Focal Desktop for TOR",
   "docker_registry": "https://ghcr.io/",
+  "image_src": "ubuntu.png",
   "run_config": {
     "hostname": "kasm",
     "dns": [
@@ -33,7 +34,7 @@
     {
       "version": "1.16.x",
       "image": "jpartain89/kasm-ubuntu-desktop-vlc-tor:latest",
-      "uncompressed_size_mb": 2170,
+      "uncompressed_size_mb": 2170
     }
   ]
 }
