@@ -4,7 +4,7 @@ const nextConfig = {
   env: {
     name: 'JPCDI Repo',
     description: 'The official JPCDI Repo for Kasm.',
-    icon: '/img/logo.svg',
+    icon: 'https://jpcdi.github.io/kasm-registry/1.0/icon.png',
     listUrl: 'https://jpcdi.github.io/kasm-registry/',
     contactUrl: 'https://github.com/JPCDI/kasm-registry/issues',
   },

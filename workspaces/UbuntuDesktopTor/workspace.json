@@ -30,7 +30,6 @@
     "amd64"
   ],
   "compatibility": [
-
     {
       "version": "1.16.x",
       "image": "jpartain89/kasm-ubuntu-desktop-vlc-tor:latest",
