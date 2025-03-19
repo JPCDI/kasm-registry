@@ -32,8 +32,14 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "jpartain89/kasm-ubuntu-desktop-vlc-tor:latest",
+      "image": "jpartain89/kasm-ubuntu-desktop-vlc-tor:v1.16.0",
+      "uncompressed_size_mb": 2170
+    },
+    {
+      "version": "1.15.x",
+      "image": "jpartain89/kasm-ubuntu-desktop-vlc-tor:v1.15.0",
       "uncompressed_size_mb": 2170
     }
+
   ]
 }
