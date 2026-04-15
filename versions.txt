@@ -1,5 +1,4 @@
 1.0
 1.1
-dependabot_npm_and_yarn_site_npm_and_yarn-ad77747e51
 dev
 feature_dependency_update
