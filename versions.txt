@@ -1,5 +1,4 @@
 1.0
 1.1
-dependabot_npm_and_yarn_processing_npm_and_yarn-58fdc203b0
 dev
 feature_dependency_update
